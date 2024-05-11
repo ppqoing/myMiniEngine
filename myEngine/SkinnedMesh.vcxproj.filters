@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{57a38a41-8384-4adc-9b3d-9cb5591bb8d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{5f85a485-29de-40a4-b3a5-86f5ed87fe29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render">
+      <UniqueIdentifier>{bcc59fa9-20bb-4f1a-b7ef-8cd3b5a5087a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\render">
+      <UniqueIdentifier>{139f1a4c-87c3-4887-bf78-44c86ed000fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fileSystem">
+      <UniqueIdentifier>{03f4e026-2a30-4b0e-939a-4aa4c634ddb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{44a16e1f-0a3d-426a-832f-15ba8ec9b1e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\logSystem">
+      <UniqueIdentifier>{cf6799e0-9a1a-4ff8-8e04-5330e2b5c988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\config_manager">
+      <UniqueIdentifier>{11851055-ef3d-4f77-9f4a-4a2e9ed819c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\resource">
+      <UniqueIdentifier>{7712038d-4923-4ea8-96d9-fdd5171bf3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\resource\material">
+      <UniqueIdentifier>{f281ed15-4ecc-42d5-afe3-bdf281c61c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\resource\renderItem">
+      <UniqueIdentifier>{e4def833-27ec-4d57-b752-17df672a6b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\resource\pso">
+      <UniqueIdentifier>{e9323d24-13b7-4306-999e-a3e52f98e8e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\script">
+      <UniqueIdentifier>{1850c0d7-26e9-4c75-8a75-07e21c2de70e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_dx12.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameResource.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadM3d.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialManager.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="renderItem.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="renderPipeline.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="rootSignature.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedData.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMap.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMeshApp.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="Ssao.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewManager.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="logSystem\logSystem.cpp">
+      <Filter>Source Files\core\logSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="config_manager\config_manager.cpp">
+      <Filter>Source Files\core\config_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Common\Camera.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Common\d3dApp.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Common\d3dUtil.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Common\GameTimer.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Common\GeometryGenerator.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Common\MathHelper.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\material_res.cpp">
+      <Filter>Source Files\resource\material</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\renderItem_res.cpp">
+      <Filter>Source Files\resource\renderItem</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\PsoResource.cpp">
+      <Filter>Source Files\resource\pso</Filter>
+    </ClCompile>
+    <ClCompile Include="sysManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="engineMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\mygui.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="script\myScript.cpp">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_dx12.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\directxtk12_desktop_2019.2024.2.22.1\include\DDSTextureLoader.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameResource.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadM3d.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialManager.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="renderItem.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="renderPipeline.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="rootSignature.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMap.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedData.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMeshApp.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="Ssao.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewManager.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="logSystem\logSystem.h">
+      <Filter>Source Files\core\logSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="config_manager\config_manager.h">
+      <Filter>Source Files\core\config_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\GeometryGenerator.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\MathHelper.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\UploadBuffer.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\Camera.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\d3dApp.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\d3dUtil.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\d3dx12.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\GameTimer.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="baseUtil.h">
+      <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sigleton.h">
+      <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="cereal.h">
+      <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="resource\material_res.h">
+      <Filter>Source Files\resource\material</Filter>
+    </ClInclude>
+    <ClInclude Include="resource\renderItem_res.h">
+      <Filter>Source Files\resource\renderItem</Filter>
+    </ClInclude>
+    <ClInclude Include="resource\PsoResource.h">
+      <Filter>Source Files\resource\pso</Filter>
+    </ClInclude>
+    <ClInclude Include="resource\resourceUtil.h">
+      <Filter>Source Files\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="sysManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\mygui.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="script\myScript.h">
+      <Filter>Source Files\script</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+{
+    "config": {
+        "FullscreenState": false,
+        "4xMsaaState": false,
+        "4xMsaaQuality": 0,
+        "ClientWidth": 800,
+        "ClientHeight": 600
+    }
+}
